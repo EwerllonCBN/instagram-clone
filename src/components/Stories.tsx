@@ -1,6 +1,10 @@
-import { Text } from 'native-base'
+import { Text, VStack } from 'native-base'
 import React from 'react'
 
 export function Stories() {
-  return <Text>Stories:</Text>
+  return (
+    <VStack p={2}>
+      <Text color="white">Stories:</Text>
+    </VStack>
+  )
 }

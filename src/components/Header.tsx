@@ -1,4 +1,4 @@
-import { HStack, Image, Stack } from 'native-base'
+import { HStack, Image, Stack, Text } from 'native-base'
 import React from 'react'
 import { TouchableOpacity } from 'react-native'
 
@@ -32,8 +32,20 @@ export function Header() {
           />
         </TouchableOpacity>
         <TouchableOpacity>
+          <Stack
+            bg="red.600"
+            pl={1}
+            pr={1}
+            borderRadius={10}
+            position="absolute"
+            left={4}
+            bottom={4}
+            zIndex={10}
+          >
+            <Text color="white">11</Text>
+          </Stack>
           <Image
-            alt="like"
+            alt="messenger"
             resizeMode="contain"
             width={30}
             height={30}
