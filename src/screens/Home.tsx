@@ -5,7 +5,7 @@ import { VStack } from 'native-base'
 
 export function Home() {
   return (
-    <VStack flex={1} bgColor="gray.800">
+    <VStack flex={1} bgColor="gray.700">
       <Header />
       <Text>Olá mundo</Text>
     </VStack>

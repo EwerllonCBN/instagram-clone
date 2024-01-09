@@ -1,7 +1,6 @@
-import { HStack, Image, Stack, Text, VStack } from 'native-base'
+import { HStack, Image, Stack } from 'native-base'
 import React from 'react'
-import { Logo } from '../assets/logo-white.png'
-import { Touchable, TouchableOpacity } from 'react-native'
+import { TouchableOpacity } from 'react-native'
 
 export function Header() {
   return (
