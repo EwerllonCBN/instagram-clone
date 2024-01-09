@@ -1,5 +1,5 @@
 import React from 'react'
-import { SafeAreaView, Text } from 'react-native'
+import { Divider, Text } from 'native-base'
 import { Header } from '../components/Header'
 import { VStack } from 'native-base'
 import { Stories } from '../components/Stories'
@@ -9,7 +9,8 @@ export function Home() {
     <VStack flex={1} bgColor="gray.700">
       <Header />
       <Stories />
-      <Text>Olá mundo</Text>
+      <Divider mt={1} h={0.3} />
+      <Text color="white">Olá mundo</Text>
     </VStack>
   )
 }
