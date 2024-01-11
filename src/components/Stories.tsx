@@ -43,6 +43,7 @@ export function Stories() {
           </Center>
         ))}
         <Divider />
+        <Text> Esse é meu primeiro stories</Text>
       </ScrollView>
     </VStack>
   )
