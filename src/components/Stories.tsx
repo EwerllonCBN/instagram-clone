@@ -1,4 +1,4 @@
-import { Text, VStack, Image, ScrollView, Center } from 'native-base'
+import { Text, VStack, Image, ScrollView, Center, Divider } from 'native-base'
 import React from 'react'
 import { USERS } from '../data/users'
 import { LinearGradient } from 'expo-linear-gradient'
@@ -42,6 +42,7 @@ export function Stories() {
             </Text>
           </Center>
         ))}
+        <Divider />
       </ScrollView>
     </VStack>
   )
