@@ -1,4 +1,4 @@
-import { Text, VStack, Image, ScrollView, Center, Divider } from 'native-base'
+import { Center, Image, ScrollView, Text, VStack } from 'native-base'
 import React from 'react'
 import { USERS } from '../data/users'
 import { LinearGradient } from 'expo-linear-gradient'
@@ -8,7 +8,7 @@ export function Stories() {
   return (
     <VStack p={2}>
       <ScrollView horizontal showsHorizontalScrollIndicator={false}>
-        {USERS.map((story, index) => (
+        {USERS.map((stories, index) => (
           <Center key={index.toString()}>
             <TouchableOpacity>
               <LinearGradient
@@ -18,31 +18,31 @@ export function Stories() {
                 style={{
                   width: 75,
                   height: 75,
-                  borderRadius: 50,
                   justifyContent: 'center',
                   alignItems: 'center',
+                  borderRadius: 50,
                   marginLeft: 10
                 }}
               >
                 <Image
+                  alt="stories"
                   w={70}
                   h={70}
-                  alt="storys"
-                  source={{ uri: story.image }}
                   borderRadius={50}
                   borderWidth={4}
                   borderColor="gray.700"
+                  source={{ uri: stories.image }}
                 />
               </LinearGradient>
             </TouchableOpacity>
-            <Text ml={4} color="white">
-              {story.username.length > 10
-                ? story.username.slice(0, 8).toLowerCase() + '...'
-                : story.username}
+
+            <Text color="white" ml={4}>
+              {stories.username.length > 10
+                ? stories.username.slice(0, 7) + '...'
+                : stories.username}
             </Text>
           </Center>
         ))}
-        <Divider />
       </ScrollView>
     </VStack>
   )

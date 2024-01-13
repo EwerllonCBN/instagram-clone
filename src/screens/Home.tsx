@@ -9,8 +9,10 @@ export function Home() {
     <VStack flex={1} bgColor="gray.700">
       <Header />
       <Stories />
-      <Divider mt={1} h={0.3} />
-      <Text color="white">Olá mundo</Text>
+      <Divider mt={3} h={0.3} />
+      <Text mt={2} color="white">
+        Parte 2 em breve
+      </Text>
     </VStack>
   )
 }
