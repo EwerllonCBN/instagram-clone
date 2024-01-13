@@ -4,7 +4,8 @@ export const POSTS = [
   {
     imageUrl: '',
     user: USERS[0].user,
-    likes: 'Foto das férias no Caribe',
+    like: 7222,
+    caption: 'Foto das férias no Caribe',
     profile_picture: USERS[0].image,
     coments: [
       {
