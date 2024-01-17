@@ -1,5 +1,11 @@
 export const USERS = [
   {
+    id: 0,
+    username: 'ewerlloncbn',
+    image:
+      'https://instagram.fmao1-1.fna.fbcdn.net/v/t51.2885-19/273347736_2448982951905220_8498169691213256636_n.jpg?stp=dst-jpg_s320x320&_nc_ht=instagram.fmao1-1.fna.fbcdn.net&_nc_cat=104&_nc_ohc=VbaTqanrMtoAX_JJf0c&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfAF4ptagOgbQpmqaBOQO7EcIOPGWQ6XcGFX2Xzvy5qzmQ&oe=65ACF346&_nc_sid=8b3546'
+  },
+  {
     id: 1,
     username: 'josaph07',
     image:
@@ -35,7 +41,6 @@ export const USERS = [
     image:
       'https://instagram.fmao1-1.fna.fbcdn.net/v/t51.2885-19/266121209_616420732837356_3524780350606339088_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fmao1-1.fna.fbcdn.net&_nc_cat=100&_nc_ohc=XK3lXhQ9PfIAX8Qwmke&edm=ALlQn9MBAAAA&ccb=7-5&oh=00_AfCrR2HD0iuzzPgfs-TmyJJErYGDziKImToH1P9Vma4I_A&oe=65A25A2B&_nc_sid=e7f676'
   },
-
   {
     id: 7,
     username: 'gabriiel.liam',

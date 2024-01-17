@@ -12,7 +12,7 @@ export function Stories() {
           <Center key={index.toString()}>
             <TouchableOpacity>
               <LinearGradient
-                colors={['#ffb629', '#e92323', '#d32191']}
+                colors={['#ffb629', '#ff3300', '#e92323', '#d32191']}
                 start={{ x: 0.5, y: 1.3 }}
                 end={{ x: 1, y: 1.1 }}
                 style={{
